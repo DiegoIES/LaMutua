@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <title>Linea Directa</title><link rel="stylesheet" href="style.css">
+</head>
+<body class="centr">
+    <header>
+        <p></p>
+        <img src="imagenes/img-logo.jpg" alt="Linea Directa">
+        <p></p>
+        <div class="gris">
+            <h1>Acceso al área de clientes</h1>
+        </div>
+    </header>
+    <main class="">
+        <form action="area-clientes.php" method="post" >
+            <p><div class="centrlft"> Documento de identidad del titular:</div>
+                <p>
+                    <input type="text" name="dni" id="dni" placeholder="0999999n" style="font-size: medium;" class="tam" min="8" max="8">
+                </p>
+            </p>
+            <p><div class="centrlft"> Introduce tu contraseña:</div>
+                <p>
+                    <input type="password" name="contraseña" id="contraseña" style="font-size: medium;" class="tam" min="8" max="8">
+                </p>
+            <div class=centrlft>
+                <input type="radio" type="checkbox" name="recordarusu" >
+                <label for="usuacceso">
+                    Recordar mi Usuario de acceso
+                </label>
+            </div>
+            <p></p>
+            <div class="centrlft2">
+                <label for="RecuerdaContra">
+                    Olvidaste tu contraseña?
+                </label>
+            </div>
+            <br><br><br>
+            <div class="Botones">
+                <input type="submit" value="    Acceder     " class="bot1"><br><p></p>
+                <input type="button" value="Solicitar Grúa" class="bot2"">
+            </div>
+        </form>
+        
+
+    </main>
+</body>
+</html>

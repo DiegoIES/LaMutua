@@ -1,0 +1,45 @@
+.centr{
+    text-align: center;
+}
+
+div.gris{
+    color: rgb(73, 69, 69);
+    font-family: sans-serif;
+}
+
+.tam{
+    width: 400px;
+    height: 45px;
+}
+
+.centrlft2{
+    text-align: left;
+    margin-left: 747px;
+    color: rgb(211, 15, 15);
+    font-weight: bold;
+}
+
+.centrlft{
+    text-align: left;
+    margin-left: 747px;
+    color: rgb(75, 69, 69);
+}
+
+.Botones{
+    text-align: center;
+   /*  margin-left: 747px; */
+}
+
+.bot1{
+    font-size: xx-large; 
+    color: white; 
+    background-color: red; 
+    border-radius: 20px;
+}
+
+.bot2{
+    font-size: xx-large; 
+    color: red; 
+    background-color: white; 
+    border-radius: 20px;
+}
