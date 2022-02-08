@@ -35,6 +35,12 @@ div.gris{
     color: white; 
     background-color: red; 
     border-radius: 20px;
+    border: 0px solid;
+    margin: 10px;
+}
+
+.bot1:hover {
+    background-color: rgb(187, 0, 0);
 }
 
 .bot2{
@@ -42,4 +48,9 @@ div.gris{
     color: red; 
     background-color: white; 
     border-radius: 20px;
+}
+
+.bot2:hover{
+    background-color: rgb(187, 0, 0);
+    color: white;
 }
